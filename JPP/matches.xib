@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Oswald-Light.ttf">
+            <string>Oswald-Light</string>
+        </array>
+        <array key="Oswald-Regular.ttf">
+            <string>Oswald-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="matches" customModule="JPP" customModuleProvider="target">
+            <connections>
+                <outlet property="addCalender" destination="lss-2h-qUr" id="Dc6-6g-pKZ"/>
+                <outlet property="addCalender2" destination="FiI-RX-wRn" id="25b-fs-fWo"/>
+                <outlet property="bookTicket" destination="NE4-wW-xKf" id="4L6-cE-zPf"/>
+                <outlet property="bookTickets" destination="0z1-c3-cjW" id="zIm-z5-Hzk"/>
+                <outlet property="buttonHolder" destination="m2u-6l-nON" id="9gQ-3G-qNR"/>
+                <outlet property="matchesDate" destination="74G-d4-Wx0" id="FVS-Vq-7P5"/>
+                <outlet property="matchesTeams" destination="8K5-0L-apj" id="kUB-5U-QHz"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="362" height="100"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="4 Feb 2016, 20:00(IST)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="74G-d4-Wx0">
+                    <rect key="frame" x="8" y="29" width="354" height="21"/>
+                    <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="13"/>
+                    <color key="textColor" red="0.51372549019607838" green="0.69803921568627447" blue="0.76078431372549016" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JAIPUR PINK PANTHER VS JAIPUR PINK PANTHER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8K5-0L-apj">
+                    <rect key="frame" x="8" y="8" width="354" height="21"/>
+                    <fontDescription key="fontDescription" name="Oswald-Regular" family="Oswald" pointSize="14"/>
+                    <color key="textColor" red="0.90588235294117647" green="0.17647058823529413" blue="0.54117647058823526" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="m2u-6l-nON">
+                    <rect key="frame" x="16" y="59" width="330" height="29"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lss-2h-qUr">
+                            <rect key="frame" x="0.0" y="0.0" width="157" height="29"/>
+                            <color key="backgroundColor" red="1" green="0.31899784370000001" blue="0.66240949280000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="Oswald-Regular" family="Oswald" pointSize="16"/>
+                            <state key="normal" title="   Add to Calender" image="calender_white">
+                                <color key="titleColor" red="0.98557114601135254" green="1" blue="0.98517388105392456" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="addCalenderTap:" destination="-1" eventType="touchUpInside" id="iET-SG-5PS"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NE4-wW-xKf">
+                            <rect key="frame" x="0.0" y="0.0" width="330" height="29"/>
+                            <color key="backgroundColor" red="1" green="0.31899784370000001" blue="0.66240949280000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="157" id="dxH-dP-5Tt"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Oswald-Regular" family="Oswald" pointSize="16"/>
+                            <state key="normal" title="   Book Tickets" image="tickets_white">
+                                <color key="titleColor" red="0.98557114601135254" green="1" blue="0.98517388105392456" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="bookTicketTap:" destination="-1" eventType="touchUpInside" id="QQf-RF-00g"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="NE4-wW-xKf" firstAttribute="leading" secondItem="lss-2h-qUr" secondAttribute="trailing" constant="8" id="bX7-rk-IwM"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="subviews">
+                            <exclude reference="lss-2h-qUr"/>
+                            <exclude reference="NE4-wW-xKf"/>
+                        </mask>
+                        <mask key="constraints">
+                            <exclude reference="bX7-rk-IwM"/>
+                        </mask>
+                    </variation>
+                </stackView>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="GID-NS-MQv">
+                    <rect key="frame" x="16" y="58" width="330" height="30"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FiI-RX-wRn">
+                            <rect key="frame" x="0.0" y="0.0" width="160" height="30"/>
+                            <color key="backgroundColor" red="1" green="0.31899784370000001" blue="0.66240949280000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="160" id="Kjy-kV-oUn"/>
+                                <constraint firstAttribute="height" constant="30" id="fh7-vx-JdM"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Oswald-Regular" family="Oswald" pointSize="16"/>
+                            <state key="normal" title="   Add to Calendar">
+                                <color key="titleColor" red="0.98557114601135254" green="1" blue="0.98517388105392456" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="addCalenderTap:" destination="-1" eventType="touchUpInside" id="gCh-Bg-6lu"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0z1-c3-cjW">
+                            <rect key="frame" x="170" y="0.0" width="160" height="30"/>
+                            <color key="backgroundColor" red="1" green="0.31899784370000001" blue="0.66240949280000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="zyS-P0-eTn"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Oswald-Regular" family="Oswald" pointSize="16"/>
+                            <state key="normal" title="BOOK TICKETS">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="330" id="NSF-HZ-aFm"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="0.76862745098039209" green="0.94117647058823528" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="8K5-0L-apj" secondAttribute="trailing" id="0Td-Wc-PET"/>
+                <constraint firstItem="8K5-0L-apj" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="topMargin" id="1Ae-oo-H1t"/>
+                <constraint firstAttribute="bottom" secondItem="m2u-6l-nON" secondAttribute="bottom" constant="12" id="4Z2-cq-W9i"/>
+                <constraint firstAttribute="trailing" secondItem="m2u-6l-nON" secondAttribute="trailing" constant="8" id="AO1-ZC-CB2"/>
+                <constraint firstItem="m2u-6l-nON" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="CZH-SM-wYr"/>
+                <constraint firstItem="GID-NS-MQv" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Msq-Om-8eb"/>
+                <constraint firstItem="m2u-6l-nON" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="NDW-SI-lvI"/>
+                <constraint firstItem="74G-d4-Wx0" firstAttribute="top" secondItem="8K5-0L-apj" secondAttribute="bottom" id="WKa-WT-Fw6"/>
+                <constraint firstItem="GID-NS-MQv" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="Xsv-28-qQe"/>
+                <constraint firstItem="74G-d4-Wx0" firstAttribute="trailing" secondItem="8K5-0L-apj" secondAttribute="trailing" id="Y4H-6Z-1tk"/>
+                <constraint firstItem="74G-d4-Wx0" firstAttribute="leading" secondItem="8K5-0L-apj" secondAttribute="leading" id="aek-ED-ePi"/>
+                <constraint firstItem="m2u-6l-nON" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="b1j-Qy-m26"/>
+                <constraint firstItem="74G-d4-Wx0" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottomMargin" id="djW-Va-OyI"/>
+                <constraint firstAttribute="trailing" secondItem="m2u-6l-nON" secondAttribute="trailing" constant="16" id="fXf-sO-Eih"/>
+                <constraint firstItem="m2u-6l-nON" firstAttribute="top" secondItem="74G-d4-Wx0" secondAttribute="bottom" constant="9" id="gGi-Q7-vgP"/>
+                <constraint firstItem="GID-NS-MQv" firstAttribute="top" secondItem="74G-d4-Wx0" secondAttribute="bottom" constant="8" symbolic="YES" id="kBa-gA-mUQ"/>
+                <constraint firstAttribute="bottom" secondItem="74G-d4-Wx0" secondAttribute="bottom" constant="50" id="n56-Ri-zHU"/>
+                <constraint firstItem="GID-NS-MQv" firstAttribute="leading" secondItem="m2u-6l-nON" secondAttribute="leading" id="oX5-fZ-X3C"/>
+                <constraint firstItem="74G-d4-Wx0" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" id="u4B-7L-Sqz"/>
+                <constraint firstAttribute="trailing" secondItem="GID-NS-MQv" secondAttribute="trailing" constant="16" id="wDv-ec-Yd1"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="m2u-6l-nON"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="AO1-ZC-CB2"/>
+                    <exclude reference="CZH-SM-wYr"/>
+                    <exclude reference="djW-Va-OyI"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="183" y="251"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="calender_white" width="24" height="25"/>
+        <image name="tickets_white" width="25" height="25"/>
+    </resources>
+</document>

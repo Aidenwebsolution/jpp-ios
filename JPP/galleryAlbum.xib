@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Oswald-Bold.ttf">
+            <string>Oswald-Bold</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="galleryAlbum" customModule="JPP" customModuleProvider="target">
+            <connections>
+                <outlet property="galleryBanner" destination="bsR-tP-dNx" id="mEc-bD-cxt"/>
+                <outlet property="galleryTitle" destination="wDS-wm-4kz" id="Y9h-Wi-nRz"/>
+                <outlet property="galleryTitleBackView" destination="roo-nC-enp" id="yA8-WD-W3L"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="449" height="202"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView autoresizesSubviews="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loadingimages" translatesAutoresizingMaskIntoConstraints="NO" id="bsR-tP-dNx">
+                    <rect key="frame" x="0.0" y="0.0" width="449" height="202"/>
+                </imageView>
+                <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="roo-nC-enp">
+                    <rect key="frame" x="0.0" y="138" width="449" height="44"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JAIPUR PINK PANTHER VS JAIPUR PINK PANTHER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wDS-wm-4kz">
+                            <rect key="frame" x="8" y="8" width="433" height="28"/>
+                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="15"/>
+                            <color key="textColor" red="0.90588235855102539" green="0.17647059261798859" blue="0.54117649793624878" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.019607843137254902" green="0.0078431372549019607" blue="0.019607843137254902" alpha="0.7063100961538461" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="tintColor" red="0.14901961389999999" green="0.14901961389999999" blue="0.14901961389999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="wDS-wm-4kz" firstAttribute="leading" secondItem="roo-nC-enp" secondAttribute="leading" constant="8" id="OY4-cc-zO7"/>
+                        <constraint firstAttribute="bottom" secondItem="wDS-wm-4kz" secondAttribute="bottom" constant="8" id="UrN-xV-GGF"/>
+                        <constraint firstAttribute="trailing" secondItem="wDS-wm-4kz" secondAttribute="trailing" constant="8" id="YPJ-OC-SIe"/>
+                        <constraint firstItem="wDS-wm-4kz" firstAttribute="top" secondItem="roo-nC-enp" secondAttribute="top" constant="8" id="kJ9-D3-gqE"/>
+                        <constraint firstAttribute="height" constant="44" id="vyW-fR-bNW"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailingMargin" secondItem="roo-nC-enp" secondAttribute="trailing" constant="-8" id="3Sf-U5-gla"/>
+                <constraint firstAttribute="trailing" secondItem="bsR-tP-dNx" secondAttribute="trailing" id="EBc-hE-Ayd"/>
+                <constraint firstItem="roo-nC-enp" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" constant="-8" id="GU9-gn-gMW"/>
+                <constraint firstItem="bsR-tP-dNx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Gud-Hr-94t"/>
+                <constraint firstItem="bsR-tP-dNx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="QFj-ZG-ZB4"/>
+                <constraint firstItem="bsR-tP-dNx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="V9c-lU-4oI"/>
+                <constraint firstItem="roo-nC-enp" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="topMargin" constant="130" id="YIW-r0-Xba"/>
+                <constraint firstAttribute="bottom" secondItem="bsR-tP-dNx" secondAttribute="bottom" id="v7b-Rf-4JV"/>
+                <constraint firstAttribute="bottom" secondItem="bsR-tP-dNx" secondAttribute="bottom" id="wZB-eA-aX5"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="340.5" y="169"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="loadingimages" width="1000" height="1000"/>
+    </resources>
+</document>

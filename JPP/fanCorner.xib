@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Oswald-Light.ttf">
+            <string>Oswald-Light</string>
+        </array>
+        <array key="Oswald-Regular.ttf">
+            <string>Oswald-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="fanCorner" customModule="JPP" customModuleProvider="target">
+            <connections>
+                <outlet property="button1" destination="t4M-si-NtQ" id="em2-fY-igr"/>
+                <outlet property="button10" destination="a6I-Of-AqG" id="Miu-E9-F9A"/>
+                <outlet property="button11" destination="eI0-mP-FRh" id="Fnx-8x-F0H"/>
+                <outlet property="button12" destination="5x6-y0-kSI" id="2qa-kO-uoc"/>
+                <outlet property="button13" destination="JsL-xa-qVL" id="KxG-jy-33a"/>
+                <outlet property="button14" destination="RgL-Ln-yPl" id="rIY-Ed-N1y"/>
+                <outlet property="button15" destination="w1U-We-SZv" id="jrW-Pr-ySG"/>
+                <outlet property="button16" destination="vVB-qC-Zwx" id="r70-9O-Wa9"/>
+                <outlet property="button17" destination="9ji-sa-K4y" id="siN-wF-fa1"/>
+                <outlet property="button18" destination="Lcy-1v-tHN" id="TvN-Sl-wkJ"/>
+                <outlet property="button19" destination="mbB-hN-aTl" id="UoU-d6-1Gv"/>
+                <outlet property="button2" destination="uUL-JS-BX6" id="2VU-pV-cHn"/>
+                <outlet property="button20" destination="Nfn-F2-VOb" id="wlZ-9G-uNs"/>
+                <outlet property="button3" destination="dex-dW-STy" id="WgA-ND-pQa"/>
+                <outlet property="button4" destination="FFc-pp-KkD" id="UeL-Uz-E42"/>
+                <outlet property="button5" destination="BuM-S9-E1i" id="u1W-Rg-ofN"/>
+                <outlet property="button6" destination="Dpt-l9-4Ji" id="Eqh-Nm-i7a"/>
+                <outlet property="button7" destination="CAK-6x-9qj" id="l0U-hg-2HX"/>
+                <outlet property="button8" destination="mMi-XL-jIQ" id="UYY-vO-HuD"/>
+                <outlet property="button9" destination="aEQ-os-04w" id="Bqr-3o-mvb"/>
+                <outlet property="city" destination="zO9-UB-KDP" id="ziN-84-t0w"/>
+                <outlet property="email" destination="UyJ-86-G0t" id="aQn-qb-cfJ"/>
+                <outlet property="facbook" destination="3bH-kd-Yq4" id="UoM-iD-aij"/>
+                <outlet property="firstName" destination="TKT-Vw-tSm" id="Unx-e5-avo"/>
+                <outlet property="instagram" destination="wnt-On-BEy" id="OR1-F6-eqY"/>
+                <outlet property="lastName" destination="47N-Tx-Jtp" id="YCi-cG-TJj"/>
+                <outlet property="mobile" destination="xTF-t2-5lb" id="FsM-17-a3O"/>
+                <outlet property="teamName16" destination="ykt-mb-VgE" id="ge7-n5-xQb"/>
+                <outlet property="teamName17" destination="yAG-Bc-T8z" id="BGL-H3-Qqt"/>
+                <outlet property="teamName18" destination="6V9-0z-Fpg" id="oWg-30-RdZ"/>
+                <outlet property="teamName19" destination="X2c-qp-6e3" id="Kdz-Qo-5ne"/>
+                <outlet property="teamName20" destination="WHP-E2-ACR" id="RLC-yR-nTg"/>
+                <outlet property="teamname1" destination="wnK-OV-Eje" id="Cl3-IO-bIf"/>
+                <outlet property="teamname10" destination="iZG-Yp-qLx" id="gLA-xg-Pov"/>
+                <outlet property="teamname11" destination="bJb-UJ-haK" id="SbH-AZ-uv8"/>
+                <outlet property="teamname12" destination="9yd-v8-ceA" id="PFv-Nv-U1j"/>
+                <outlet property="teamname13" destination="aAr-RC-q7K" id="p2i-ut-kEQ"/>
+                <outlet property="teamname14" destination="TVL-v3-37j" id="l5X-lf-0sY"/>
+                <outlet property="teamname15" destination="bps-oj-CaL" id="wHC-ko-aHg"/>
+                <outlet property="teamname2" destination="Xmh-wJ-rkW" id="dbW-5v-X3d"/>
+                <outlet property="teamname3" destination="DRD-Ro-yJd" id="luu-AB-WBl"/>
+                <outlet property="teamname4" destination="GC5-0D-McY" id="h9P-FA-jeO"/>
+                <outlet property="teamname5" destination="Svx-57-UBl" id="xiZ-EJ-c1a"/>
+                <outlet property="teamname6" destination="xHO-5R-Jcx" id="FIJ-dh-3aT"/>
+                <outlet property="teamname7" destination="lNm-0G-4Em" id="EsE-ld-AeJ"/>
+                <outlet property="teamname8" destination="xlX-eN-Bf1" id="mk3-O8-Jcm"/>
+                <outlet property="teamname9" destination="629-Lz-ugu" id="mOA-G6-ecq"/>
+                <outlet property="twitter" destination="iwN-nR-mMu" id="slN-Cp-YDj"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="1043"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="SIGN UP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hlX-J5-OtV">
+                    <rect key="frame" x="16" y="15" width="341" height="32"/>
+                    <fontDescription key="fontDescription" name="Oswald-Regular" family="Oswald" pointSize="21"/>
+                    <color key="textColor" red="0.93333333333333335" green="0.29019607843137252" blue="0.60784313725490191" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="First Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TKT-Vw-tSm">
+                    <rect key="frame" x="16" y="192" width="279" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="s8B-F9-KQ5"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="_placeholderLabel.textColor">
+                            <color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Last Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="47N-Tx-Jtp">
+                    <rect key="frame" x="16" y="242" width="279" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="brB-Pi-SD2"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="_placeholderLabel.textColor">
+                            <color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Mobile Number" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xTF-t2-5lb">
+                    <rect key="frame" x="16" y="292" width="279" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="cmB-1e-Mx5"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="_placeholderLabel.textColor">
+                            <color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email Address" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UyJ-86-G0t">
+                    <rect key="frame" x="16" y="342" width="279" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="h1p-Or-ig0"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="_placeholderLabel.textColor">
+                            <color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="City" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zO9-UB-KDP">
+                    <rect key="frame" x="16" y="392" width="279" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="jny-Q2-cG6"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="_placeholderLabel.textColor">
+                            <color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" misplaced="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TOy-cP-aKS">
+                    <rect key="frame" x="16" y="57" width="341" height="115"/>
+                    <string key="text">Register and get a chance to win exclusive jaipur pink panther merchandise, meet and greet with the players and home match tickets. </string>
+                    <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose Your Favourite Panthers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b7x-2B-G5S">
+                    <rect key="frame" x="16" y="435" width="150.5" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="fE2-Sh-aiO"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Wei Yang Tsai" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vZ3-KD-Fsc">
+                    <rect key="frame" x="186" y="794" width="150" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="cBz-l6-YC2"/>
+                        <constraint firstAttribute="width" constant="150" id="n6I-N4-D45"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Stay tuned to our weekly contest on social mediamedia and stand a chance to win exclusive merchandise! " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eb6-gf-5WC">
+                    <rect key="frame" x="19" y="859" width="327" height="42"/>
+                    <fontDescription key="fontDescription" name="Oswald-Regular" family="Oswald" pointSize="14"/>
+                    <color key="textColor" red="0.84313725490196079" green="0.21568627450980393" blue="0.52156862745098043" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3bH-kd-Yq4">
+                    <rect key="frame" x="19" y="945.5" width="35" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="35" id="lG4-uy-wJv"/>
+                        <constraint firstAttribute="height" constant="35" id="sEr-DY-H1x"/>
+                    </constraints>
+                    <state key="normal" image="facebook-circle"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iwN-nR-mMu">
+                    <rect key="frame" x="69" y="945.5" width="35" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="65Z-oa-fzO"/>
+                        <constraint firstAttribute="width" constant="35" id="STJ-5D-7gq"/>
+                    </constraints>
+                    <state key="normal" image="twitter-circle"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ebW-CG-vOS">
+                    <rect key="frame" x="19" y="841" width="135" height="35"/>
+                    <color key="backgroundColor" red="0.84313725490196079" green="0.21568627450980393" blue="0.52156862745098043" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="135" id="sYU-Uw-9xC"/>
+                        <constraint firstAttribute="height" constant="35" id="ypE-56-OyH"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Oswald-Regular" family="Oswald" pointSize="16"/>
+                    <state key="normal" title="SUBMIT">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="submitForm:" destination="-1" eventType="touchUpInside" id="kUu-s1-Y3f"/>
+                    </connections>
+                </button>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="zCm-A9-cZY">
+                    <rect key="frame" x="16" y="463" width="340" height="358"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="lC2-jX-Ja8">
+                            <rect key="frame" x="0.0" y="0.0" width="340" height="25"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t4M-si-NtQ">
+                                    <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="25" id="BnX-0p-nqx"/>
+                                        <constraint firstAttribute="height" constant="15" id="kre-gY-6bt"/>
+                                        <constraint firstAttribute="height" constant="40" id="tUC-vA-GQg"/>
+                                    </constraints>
+                                    <variation key="default">
+                                        <mask key="constraints">
+                                            <exclude reference="kre-gY-6bt"/>
+                                            <exclude reference="tUC-vA-GQg"/>
+                                        </mask>
+                                    </variation>
+                                    <connections>
+                                        <action selector="checkbutton1:" destination="-1" eventType="touchUpInside" id="JZQ-RV-lcw"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="wnK-OV-Eje">
+                                    <rect key="frame" x="35" y="0.0" width="120" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="5sA-ms-Z5H"/>
+                                        <constraint firstAttribute="width" constant="120" id="fdq-Em-uaq"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="12"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="xwu-3a-sAY">
+                                    <rect key="frame" x="165" y="0.0" width="175" height="25"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uUL-JS-BX6">
+                                            <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="15" id="DJe-eA-p7f"/>
+                                                <constraint firstAttribute="height" constant="40" id="ONK-i7-1Gi"/>
+                                                <constraint firstAttribute="width" constant="15" id="Ycy-ZB-zGh"/>
+                                                <constraint firstAttribute="width" constant="25" id="nvT-xT-r42"/>
+                                            </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="DJe-eA-p7f"/>
+                                                    <exclude reference="ONK-i7-1Gi"/>
+                                                    <exclude reference="Ycy-ZB-zGh"/>
+                                                </mask>
+                                            </variation>
+                                            <connections>
+                                                <action selector="checkbutton2:" destination="-1" eventType="touchUpInside" id="xYi-AM-FAD"/>
+                                            </connections>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Xmh-wJ-rkW">
+                                            <rect key="frame" x="35" y="0.0" width="140" height="25"/>
+                                            <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="12"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="165" id="pnk-Hs-h7z"/>
+                                    </constraints>
+                                </stackView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="xwu-3a-sAY" firstAttribute="leading" secondItem="wnK-OV-Eje" secondAttribute="trailing" id="KVA-gw-YaO"/>
+                            </constraints>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="KVA-gw-YaO"/>
+                                </mask>
+                            </variation>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="MNw-ih-1Qf">
+                            <rect key="frame" x="0.0" y="37" width="340" height="25"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dex-dW-STy">
+                                    <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="15" id="dKP-9w-MFS"/>
+                                        <constraint firstAttribute="height" constant="25" id="kPb-Uv-Ux2"/>
+                                        <constraint firstAttribute="width" constant="25" id="pp1-Zz-3t0"/>
+                                        <constraint firstAttribute="width" constant="15" id="vy4-Kb-exW"/>
+                                    </constraints>
+                                    <variation key="default">
+                                        <mask key="constraints">
+                                            <exclude reference="dKP-9w-MFS"/>
+                                            <exclude reference="vy4-Kb-exW"/>
+                                        </mask>
+                                    </variation>
+                                    <connections>
+                                        <action selector="checkbutton3:" destination="-1" eventType="touchUpInside" id="zE9-FZ-ejt"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="DRD-Ro-yJd">
+                                    <rect key="frame" x="35" y="0.0" width="120" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="120" id="gPw-1p-DZh"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="12"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="8nI-YT-sVh">
+                                    <rect key="frame" x="165" y="0.0" width="175" height="25"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FFc-pp-KkD">
+                                            <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="40" id="53U-wl-Lks"/>
+                                                <constraint firstAttribute="height" constant="15" id="FkI-7u-FO3"/>
+                                                <constraint firstAttribute="width" constant="15" id="ViU-6J-38d"/>
+                                                <constraint firstAttribute="width" constant="25" id="gRT-sS-ZHR"/>
+                                            </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="53U-wl-Lks"/>
+                                                    <exclude reference="FkI-7u-FO3"/>
+                                                    <exclude reference="ViU-6J-38d"/>
+                                                </mask>
+                                            </variation>
+                                            <connections>
+                                                <action selector="checkbutton4:" destination="-1" eventType="touchUpInside" id="P7k-P9-eRh"/>
+                                            </connections>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="GC5-0D-McY">
+                                            <rect key="frame" x="35" y="0.0" width="140" height="25"/>
+                                            <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="12"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="165" id="Vzh-as-qwo"/>
+                                    </constraints>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ftj-vN-q0H">
+                            <rect key="frame" x="0.0" y="74" width="340" height="25"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BuM-S9-E1i">
+                                    <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="15" id="4M4-W5-fdR"/>
+                                        <constraint firstAttribute="width" constant="15" id="ARh-Rf-gJk"/>
+                                        <constraint firstAttribute="height" constant="25" id="Gra-x4-gGI"/>
+                                        <constraint firstAttribute="width" constant="25" id="fes-db-mv1"/>
+                                    </constraints>
+                                    <variation key="default">
+                                        <mask key="constraints">
+                                            <exclude reference="4M4-W5-fdR"/>
+                                            <exclude reference="ARh-Rf-gJk"/>
+                                        </mask>
+                                    </variation>
+                                    <connections>
+                                        <action selector="checkbutton5:" destination="-1" eventType="touchUpInside" id="Mqa-Se-E9c"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Svx-57-UBl">
+                                    <rect key="frame" x="35" y="0.0" width="120" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="120" id="Kco-l9-bnJ"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="12"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="2Nj-8D-DDB">
+                                    <rect key="frame" x="165" y="0.0" width="175" height="25"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dpt-l9-4Ji">
+                                            <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="15" id="FJc-c7-Tj1"/>
+                                                <constraint firstAttribute="width" constant="15" id="KAz-45-9ws"/>
+                                                <constraint firstAttribute="width" constant="25" id="Yb1-Be-CE7"/>
+                                            </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="FJc-c7-Tj1"/>
+                                                    <exclude reference="KAz-45-9ws"/>
+                                                </mask>
+                                            </variation>
+                                            <connections>
+                                                <action selector="checkbutton6:" destination="-1" eventType="touchUpInside" id="hVH-Jp-udv"/>
+                                            </connections>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="xHO-5R-Jcx">
+                                            <rect key="frame" x="35" y="0.0" width="140" height="25"/>
+                                            <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="12"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="165" id="ic4-0p-fzC"/>
+                                    </constraints>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="STv-5O-fHh">
+                            <rect key="frame" x="0.0" y="111" width="340" height="25"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CAK-6x-9qj">
+                                    <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="15" id="358-0c-cwn"/>
+                                        <constraint firstAttribute="height" constant="25" id="GgF-wG-Ww5"/>
+                                        <constraint firstAttribute="width" constant="25" id="Hag-ai-WMk"/>
+                                        <constraint firstAttribute="height" constant="15" id="uTS-Lc-C6c"/>
+                                    </constraints>
+                                    <variation key="default">
+                                        <mask key="constraints">
+                                            <exclude reference="358-0c-cwn"/>
+                                            <exclude reference="uTS-Lc-C6c"/>
+                                        </mask>
+                                    </variation>
+                                    <connections>
+                                        <action selector="checkbutton7:" destination="-1" eventType="touchUpInside" id="eDm-Lo-Ggn"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="lNm-0G-4Em">
+                                    <rect key="frame" x="35" y="0.0" width="120" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="120" id="JVG-nd-iDK"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="12"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="mfO-ke-BDP">
+                                    <rect key="frame" x="165" y="0.0" width="175" height="25"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mMi-XL-jIQ">
+                                            <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="15" id="9ff-wb-hqb"/>
+                                                <constraint firstAttribute="width" constant="25" id="JEj-Jn-Nhz"/>
+                                                <constraint firstAttribute="height" constant="40" id="gRa-XD-HOT"/>
+                                                <constraint firstAttribute="height" constant="15" id="kln-nq-51Y"/>
+                                                <constraint firstAttribute="height" constant="25" id="zZ1-I1-L3A"/>
+                                            </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="9ff-wb-hqb"/>
+                                                    <exclude reference="gRa-XD-HOT"/>
+                                                    <exclude reference="kln-nq-51Y"/>
+                                                </mask>
+                                            </variation>
+                                            <connections>
+                                                <action selector="checkbutton8:" destination="-1" eventType="touchUpInside" id="n0N-5c-M9m"/>
+                                            </connections>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="xlX-eN-Bf1">
+                                            <rect key="frame" x="35" y="0.0" width="140" height="25"/>
+                                            <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="12"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="165" id="jQp-bv-36w"/>
+                                    </constraints>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="wgk-Lb-AQE">
+                            <rect key="frame" x="0.0" y="148" width="340" height="25"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aEQ-os-04w">
+                                    <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="7eI-Ph-XmG"/>
+                                        <constraint firstAttribute="width" constant="15" id="I42-sP-caT"/>
+                                        <constraint firstAttribute="width" constant="25" id="Zcb-Et-5NK"/>
+                                        <constraint firstAttribute="height" constant="15" id="ckO-Zb-9Nv"/>
+                                    </constraints>
+                                    <variation key="default">
+                                        <mask key="constraints">
+                                            <exclude reference="I42-sP-caT"/>
+                                            <exclude reference="ckO-Zb-9Nv"/>
+                                        </mask>
+                                    </variation>
+                                    <connections>
+                                        <action selector="checkbutton9:" destination="-1" eventType="touchUpInside" id="hqV-e4-BcJ"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="629-Lz-ugu">
+                                    <rect key="frame" x="35" y="0.0" width="120" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="120" id="Ue2-Dz-VVg"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="12"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ZOS-dK-Cdv">
+                                    <rect key="frame" x="165" y="0.0" width="175" height="25"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a6I-Of-AqG">
+                                            <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="15" id="18i-89-Ovn"/>
+                                                <constraint firstAttribute="height" constant="25" id="5f4-Rk-SpR"/>
+                                                <constraint firstAttribute="height" constant="40" id="HNV-kY-Hyg"/>
+                                                <constraint firstAttribute="width" constant="25" id="Pup-Oa-nAG"/>
+                                                <constraint firstAttribute="height" constant="15" id="zFr-ng-jOR"/>
+                                            </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="18i-89-Ovn"/>
+                                                    <exclude reference="HNV-kY-Hyg"/>
+                                                    <exclude reference="zFr-ng-jOR"/>
+                                                </mask>
+                                            </variation>
+                                            <connections>
+                                                <action selector="checkbutton10:" destination="-1" eventType="touchUpInside" id="cbI-Lv-niV"/>
+                                            </connections>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="iZG-Yp-qLx">
+                                            <rect key="frame" x="35" y="0.0" width="140" height="25"/>
+                                            <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="12"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="165" id="h7X-ni-2D2"/>
+                                    </constraints>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="xzV-cv-Pzb">
+                            <rect key="frame" x="0.0" y="185" width="340" height="25"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eI0-mP-FRh">
+                                    <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="8cp-zg-2FV"/>
+                                        <constraint firstAttribute="width" constant="25" id="CD2-dY-FSU"/>
+                                        <constraint firstAttribute="width" constant="15" id="ZAw-N1-rvD"/>
+                                        <constraint firstAttribute="height" constant="15" id="lsr-ep-17x"/>
+                                    </constraints>
+                                    <variation key="default">
+                                        <mask key="constraints">
+                                            <exclude reference="ZAw-N1-rvD"/>
+                                            <exclude reference="lsr-ep-17x"/>
+                                        </mask>
+                                    </variation>
+                                    <connections>
+                                        <action selector="checkbutton11:" destination="-1" eventType="touchUpInside" id="DP0-MR-bWr"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="bJb-UJ-haK">
+                                    <rect key="frame" x="35" y="0.0" width="120" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="120" id="1FW-8y-9Tw"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="12"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="b1t-x1-i1M">
+                                    <rect key="frame" x="165" y="0.0" width="175" height="25"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5x6-y0-kSI">
+                                            <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="25" id="3Tg-ec-gDF"/>
+                                                <constraint firstAttribute="height" constant="40" id="ciU-tg-1w5"/>
+                                                <constraint firstAttribute="height" constant="15" id="nx1-cu-wFl"/>
+                                                <constraint firstAttribute="width" constant="15" id="tFe-jf-1ah"/>
+                                                <constraint firstAttribute="width" constant="25" id="zFk-GT-6HL"/>
+                                            </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="ciU-tg-1w5"/>
+                                                    <exclude reference="nx1-cu-wFl"/>
+                                                    <exclude reference="tFe-jf-1ah"/>
+                                                </mask>
+                                            </variation>
+                                            <connections>
+                                                <action selector="checkbutton12:" destination="-1" eventType="touchUpInside" id="iEk-U5-uwc"/>
+                                            </connections>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="9yd-v8-ceA">
+                                            <rect key="frame" x="35" y="0.0" width="140" height="25"/>
+                                            <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="12"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="165" id="uC5-rR-75G"/>
+                                    </constraints>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="cOD-8e-4Qv">
+                            <rect key="frame" x="0.0" y="222" width="340" height="25"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JsL-xa-qVL">
+                                    <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="5dF-uu-rFu"/>
+                                        <constraint firstAttribute="width" constant="25" id="AI0-Fe-O91"/>
+                                        <constraint firstAttribute="height" constant="15" id="cjv-O1-fCt"/>
+                                        <constraint firstAttribute="width" constant="15" id="jd5-eu-j4N"/>
+                                    </constraints>
+                                    <variation key="default">
+                                        <mask key="constraints">
+                                            <exclude reference="cjv-O1-fCt"/>
+                                            <exclude reference="jd5-eu-j4N"/>
+                                        </mask>
+                                    </variation>
+                                    <connections>
+                                        <action selector="checkbutton13:" destination="-1" eventType="touchUpInside" id="ceg-ZI-25k"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="aAr-RC-q7K">
+                                    <rect key="frame" x="35" y="0.0" width="120" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="120" id="l7R-ie-SFC"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="12"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="JJA-6z-Bg0">
+                                    <rect key="frame" x="165" y="0.0" width="175" height="25"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RgL-Ln-yPl">
+                                            <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="15" id="2ne-AW-tsG"/>
+                                                <constraint firstAttribute="height" constant="15" id="BxN-vE-ci5"/>
+                                                <constraint firstAttribute="height" constant="25" id="Psa-jI-ly3"/>
+                                                <constraint firstAttribute="width" constant="25" id="ZaU-8j-15l"/>
+                                                <constraint firstAttribute="height" constant="40" id="hti-Z9-5fx"/>
+                                            </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="2ne-AW-tsG"/>
+                                                    <exclude reference="BxN-vE-ci5"/>
+                                                    <exclude reference="hti-Z9-5fx"/>
+                                                </mask>
+                                            </variation>
+                                            <connections>
+                                                <action selector="checkbutton14:" destination="-1" eventType="touchUpInside" id="3C8-E6-epL"/>
+                                            </connections>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="TVL-v3-37j">
+                                            <rect key="frame" x="35" y="0.0" width="140" height="25"/>
+                                            <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="12"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="165" id="AlS-hI-Q1B"/>
+                                    </constraints>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="2Ps-Eg-QTr">
+                            <rect key="frame" x="0.0" y="259" width="340" height="25"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w1U-We-SZv">
+                                    <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="15" id="IG0-3R-edo"/>
+                                        <constraint firstAttribute="height" constant="25" id="j2h-zD-hKR"/>
+                                        <constraint firstAttribute="width" constant="25" id="p24-p5-IVJ"/>
+                                        <constraint firstAttribute="width" constant="15" id="w6H-nN-KSG"/>
+                                    </constraints>
+                                    <variation key="default">
+                                        <mask key="constraints">
+                                            <exclude reference="IG0-3R-edo"/>
+                                            <exclude reference="w6H-nN-KSG"/>
+                                        </mask>
+                                    </variation>
+                                    <connections>
+                                        <action selector="checkbutton15:" destination="-1" eventType="touchUpInside" id="9d4-4A-s1b"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="bps-oj-CaL">
+                                    <rect key="frame" x="35" y="0.0" width="120" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="120" id="MOF-YY-dwy"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="12"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Hn6-yl-Z8o">
+                                    <rect key="frame" x="165" y="0.0" width="175" height="25"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vVB-qC-Zwx">
+                                            <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="25" id="2Al-DT-qw4"/>
+                                                <constraint firstAttribute="width" constant="25" id="7D3-Qd-wEF"/>
+                                                <constraint firstAttribute="height" constant="40" id="PXH-is-I5m"/>
+                                                <constraint firstAttribute="height" constant="15" id="V0r-XN-vYe"/>
+                                                <constraint firstAttribute="width" constant="15" id="pWB-0m-LG5"/>
+                                            </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="PXH-is-I5m"/>
+                                                    <exclude reference="V0r-XN-vYe"/>
+                                                    <exclude reference="pWB-0m-LG5"/>
+                                                </mask>
+                                            </variation>
+                                            <connections>
+                                                <action selector="checkButton16:" destination="-1" eventType="touchUpInside" id="heW-HO-AAq"/>
+                                            </connections>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="ykt-mb-VgE">
+                                            <rect key="frame" x="35" y="0.0" width="140" height="25"/>
+                                            <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="12"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="165" id="yeI-Pv-qp7"/>
+                                    </constraints>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="HN3-35-74H">
+                            <rect key="frame" x="0.0" y="296" width="340" height="25"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="fyR-KF-822">
+                                    <rect key="frame" x="0.0" y="0.0" width="340" height="25"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ji-sa-K4y">
+                                            <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="15" id="3Li-GK-FTr"/>
+                                                <constraint firstAttribute="width" constant="25" id="HWn-cF-R5o"/>
+                                                <constraint firstAttribute="height" constant="25" id="jPA-D3-rXu"/>
+                                                <constraint firstAttribute="height" constant="15" id="rOn-cY-vyA"/>
+                                            </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="3Li-GK-FTr"/>
+                                                    <exclude reference="rOn-cY-vyA"/>
+                                                </mask>
+                                            </variation>
+                                            <connections>
+                                                <action selector="checkButton17:" destination="-1" eventType="touchUpInside" id="h92-zN-Dm7"/>
+                                            </connections>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="yAG-Bc-T8z">
+                                            <rect key="frame" x="35" y="0.0" width="120" height="25"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="120" id="RFG-rx-3nW"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="12"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="HDk-pA-zhU">
+                                            <rect key="frame" x="165" y="0.0" width="175" height="25"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lcy-1v-tHN">
+                                                    <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="Bvz-aD-81A"/>
+                                                        <constraint firstAttribute="height" constant="25" id="KS9-ll-4N3"/>
+                                                        <constraint firstAttribute="width" constant="25" id="Q3W-PZ-Eeo"/>
+                                                        <constraint firstAttribute="width" constant="15" id="sFz-2w-Clg"/>
+                                                        <constraint firstAttribute="height" constant="15" id="tHE-Wf-3B6"/>
+                                                    </constraints>
+                                                    <variation key="default">
+                                                        <mask key="constraints">
+                                                            <exclude reference="Bvz-aD-81A"/>
+                                                            <exclude reference="sFz-2w-Clg"/>
+                                                            <exclude reference="tHE-Wf-3B6"/>
+                                                        </mask>
+                                                    </variation>
+                                                    <connections>
+                                                        <action selector="checkButton18:" destination="-1" eventType="touchUpInside" id="q5t-CY-rhc"/>
+                                                    </connections>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="6V9-0z-Fpg">
+                                                    <rect key="frame" x="35" y="0.0" width="140" height="25"/>
+                                                    <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="12"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="165" id="WMP-G7-AJP"/>
+                                            </constraints>
+                                        </stackView>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ioN-nv-FDr">
+                            <rect key="frame" x="0.0" y="333" width="340" height="25"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="lpN-f3-U4P">
+                                    <rect key="frame" x="0.0" y="0.0" width="340" height="25"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mbB-hN-aTl">
+                                            <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="25" id="8Vc-SW-qya"/>
+                                                <constraint firstAttribute="width" constant="25" id="Loe-JS-NpT"/>
+                                                <constraint firstAttribute="width" constant="15" id="fAD-dy-Omz"/>
+                                                <constraint firstAttribute="height" constant="15" id="i7q-Tl-liT"/>
+                                            </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="fAD-dy-Omz"/>
+                                                    <exclude reference="i7q-Tl-liT"/>
+                                                </mask>
+                                            </variation>
+                                            <connections>
+                                                <action selector="checkButton19:" destination="-1" eventType="touchUpInside" id="nv4-iQ-I5c"/>
+                                            </connections>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="X2c-qp-6e3">
+                                            <rect key="frame" x="35" y="0.0" width="120" height="25"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="120" id="tRk-IQ-gkb"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="12"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="rH5-WN-1Hh">
+                                            <rect key="frame" x="165" y="0.0" width="175" height="25"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nfn-F2-VOb">
+                                                    <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="3Cx-u7-YaX"/>
+                                                        <constraint firstAttribute="height" constant="25" id="G0V-9s-k6p"/>
+                                                        <constraint firstAttribute="width" constant="25" id="Rhq-1a-fmP"/>
+                                                        <constraint firstAttribute="height" constant="15" id="Ug3-ul-LFt"/>
+                                                        <constraint firstAttribute="width" constant="15" id="hwy-r9-5Ko"/>
+                                                    </constraints>
+                                                    <variation key="default">
+                                                        <mask key="constraints">
+                                                            <exclude reference="3Cx-u7-YaX"/>
+                                                            <exclude reference="Ug3-ul-LFt"/>
+                                                            <exclude reference="hwy-r9-5Ko"/>
+                                                        </mask>
+                                                    </variation>
+                                                    <connections>
+                                                        <action selector="checkButton20:" destination="-1" eventType="touchUpInside" id="fk9-bI-jiz"/>
+                                                    </connections>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="WHP-E2-ACR">
+                                                    <rect key="frame" x="35" y="0.0" width="140" height="25"/>
+                                                    <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="12"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="165" id="h7e-lu-8m7"/>
+                                            </constraints>
+                                        </stackView>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                </stackView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wnt-On-BEy">
+                    <rect key="frame" x="119" y="945.5" width="35" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="YjT-iY-GJU"/>
+                        <constraint firstAttribute="width" constant="35" id="yfg-QY-Obh"/>
+                    </constraints>
+                    <state key="normal" image="instagram-circle"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="hlX-J5-OtV" firstAttribute="trailing" secondItem="TOy-cP-aKS" secondAttribute="trailing" id="0qK-h0-xf5"/>
+                <constraint firstItem="eb6-gf-5WC" firstAttribute="top" secondItem="vZ3-KD-Fsc" secondAttribute="bottom" constant="45" id="1hJ-No-ksS"/>
+                <constraint firstItem="zO9-UB-KDP" firstAttribute="top" secondItem="UyJ-86-G0t" secondAttribute="bottom" constant="15" id="2Oi-bQ-tfB"/>
+                <constraint firstItem="eb6-gf-5WC" firstAttribute="top" secondItem="ebW-CG-vOS" secondAttribute="bottom" constant="8" id="2dF-g8-0uB"/>
+                <constraint firstItem="ebW-CG-vOS" firstAttribute="leading" secondItem="eb6-gf-5WC" secondAttribute="leading" id="4Vx-qf-eKq"/>
+                <constraint firstItem="TKT-Vw-tSm" firstAttribute="top" secondItem="TOy-cP-aKS" secondAttribute="bottom" constant="20" id="5CE-6G-QLD"/>
+                <constraint firstAttribute="trailing" secondItem="TKT-Vw-tSm" secondAttribute="trailing" constant="70" id="62b-lM-U8D"/>
+                <constraint firstItem="ebW-CG-vOS" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="6Gj-yR-1FM"/>
+                <constraint firstItem="47N-Tx-Jtp" firstAttribute="trailing" secondItem="xTF-t2-5lb" secondAttribute="trailing" id="BFj-dG-Xwt"/>
+                <constraint firstItem="wnt-On-BEy" firstAttribute="leading" secondItem="iwN-nR-mMu" secondAttribute="trailing" constant="15" id="D0J-VM-Ck7"/>
+                <constraint firstAttribute="bottom" secondItem="vZ3-KD-Fsc" secondAttribute="bottom" constant="204" id="DNe-Kf-R2S"/>
+                <constraint firstAttribute="trailing" secondItem="eb6-gf-5WC" secondAttribute="trailing" constant="19" id="Dei-Uj-aGM"/>
+                <constraint firstItem="iwN-nR-mMu" firstAttribute="baseline" secondItem="wnt-On-BEy" secondAttribute="baseline" id="ERd-DO-jSM"/>
+                <constraint firstItem="3bH-kd-Yq4" firstAttribute="baseline" secondItem="iwN-nR-mMu" secondAttribute="baseline" id="GCF-IY-SpP"/>
+                <constraint firstItem="ebW-CG-vOS" firstAttribute="top" secondItem="zCm-A9-cZY" secondAttribute="bottom" constant="20" id="Hed-tK-lWr"/>
+                <constraint firstItem="UyJ-86-G0t" firstAttribute="leading" secondItem="ebW-CG-vOS" secondAttribute="leading" id="Ikh-RT-czg"/>
+                <constraint firstItem="hlX-J5-OtV" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="JjY-or-abF"/>
+                <constraint firstAttribute="trailing" secondItem="hlX-J5-OtV" secondAttribute="trailing" constant="8" id="MyN-MX-PaF"/>
+                <constraint firstItem="xTF-t2-5lb" firstAttribute="top" secondItem="47N-Tx-Jtp" secondAttribute="bottom" constant="15" id="N1K-gp-bdg"/>
+                <constraint firstItem="eb6-gf-5WC" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="19" id="OQO-Tg-5p0"/>
+                <constraint firstItem="iwN-nR-mMu" firstAttribute="leading" secondItem="3bH-kd-Yq4" secondAttribute="trailing" constant="15" id="Pcm-ib-cNH"/>
+                <constraint firstItem="b7x-2B-G5S" firstAttribute="top" secondItem="zO9-UB-KDP" secondAttribute="bottom" constant="20" id="RxZ-SW-kj1"/>
+                <constraint firstItem="zCm-A9-cZY" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="TZ3-sF-Ma7"/>
+                <constraint firstItem="zCm-A9-cZY" firstAttribute="top" secondItem="b7x-2B-G5S" secondAttribute="bottom" constant="8" id="WAa-RW-twY"/>
+                <constraint firstItem="TKT-Vw-tSm" firstAttribute="leading" secondItem="47N-Tx-Jtp" secondAttribute="leading" id="WyF-B3-XYq"/>
+                <constraint firstItem="eb6-gf-5WC" firstAttribute="top" secondItem="ebW-CG-vOS" secondAttribute="bottom" constant="25" id="XIB-Lr-2rz"/>
+                <constraint firstItem="TKT-Vw-tSm" firstAttribute="trailing" secondItem="47N-Tx-Jtp" secondAttribute="trailing" id="a44-lF-dcL"/>
+                <constraint firstItem="b7x-2B-G5S" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="bog-8G-WJE"/>
+                <constraint firstAttribute="trailing" secondItem="vZ3-KD-Fsc" secondAttribute="trailing" constant="29" id="chg-2Y-mIr"/>
+                <constraint firstItem="hlX-J5-OtV" firstAttribute="leading" secondItem="TOy-cP-aKS" secondAttribute="leading" id="cmc-Pc-7xr"/>
+                <constraint firstItem="TOy-cP-aKS" firstAttribute="leading" secondItem="TKT-Vw-tSm" secondAttribute="leading" id="dhq-gx-qan"/>
+                <constraint firstAttribute="trailing" secondItem="zCm-A9-cZY" secondAttribute="trailing" constant="19" id="fK1-9f-Ovj"/>
+                <constraint firstItem="3bH-kd-Yq4" firstAttribute="top" secondItem="eb6-gf-5WC" secondAttribute="bottom" constant="20" id="gpw-j9-DMF"/>
+                <constraint firstItem="xTF-t2-5lb" firstAttribute="trailing" secondItem="UyJ-86-G0t" secondAttribute="trailing" id="iZ5-O6-FsE"/>
+                <constraint firstItem="47N-Tx-Jtp" firstAttribute="leading" secondItem="xTF-t2-5lb" secondAttribute="leading" id="ige-I6-Z07"/>
+                <constraint firstItem="UyJ-86-G0t" firstAttribute="top" secondItem="xTF-t2-5lb" secondAttribute="bottom" constant="15" id="kbO-9d-0OL"/>
+                <constraint firstItem="zO9-UB-KDP" firstAttribute="leading" secondItem="b7x-2B-G5S" secondAttribute="leading" id="ly1-Dx-oYR"/>
+                <constraint firstItem="eb6-gf-5WC" firstAttribute="leading" secondItem="3bH-kd-Yq4" secondAttribute="leading" id="mH7-8o-XGa"/>
+                <constraint firstItem="TOy-cP-aKS" firstAttribute="top" secondItem="hlX-J5-OtV" secondAttribute="bottom" constant="10" id="ozZ-kF-Ejp"/>
+                <constraint firstItem="iwN-nR-mMu" firstAttribute="top" secondItem="eb6-gf-5WC" secondAttribute="bottom" constant="20" id="qhh-IT-3jg"/>
+                <constraint firstItem="zO9-UB-KDP" firstAttribute="trailing" secondItem="UyJ-86-G0t" secondAttribute="trailing" id="rje-QK-hZh"/>
+                <constraint firstItem="wnt-On-BEy" firstAttribute="top" secondItem="eb6-gf-5WC" secondAttribute="bottom" constant="20" id="uZg-Vn-3AC"/>
+                <constraint firstItem="hlX-J5-OtV" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="wOG-vb-RhG"/>
+                <constraint firstItem="47N-Tx-Jtp" firstAttribute="top" secondItem="TKT-Vw-tSm" secondAttribute="bottom" constant="15" id="wVG-Ku-F7y"/>
+                <constraint firstItem="xTF-t2-5lb" firstAttribute="leading" secondItem="UyJ-86-G0t" secondAttribute="leading" id="xjh-Mb-hdY"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="Ikh-RT-czg"/>
+                    <exclude reference="6Gj-yR-1FM"/>
+                    <exclude reference="XIB-Lr-2rz"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="129.5" y="434.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="facebook-circle" width="35" height="35"/>
+        <image name="instagram-circle" width="35" height="35"/>
+        <image name="twitter-circle" width="35" height="35"/>
+    </resources>
+</document>
