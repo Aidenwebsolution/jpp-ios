@@ -72,10 +72,10 @@ class MatchUpdateController: UIViewController, UITableViewDelegate, UITableViewD
 //                matchupdateView.matchTitle.text = "SEMI-FINAL"
 //
 //            }else{
-            matchupdateView.matchTitle.text = matchupdateJSON[indexPath.row]["level"].string
+                matchupdateView.matchTitle.text = "MATCH " + String(indexPath.row + 1)
 //            }
-            matchupdateView.teamoneImage.hnk_setImageFromURL(rest.getImageSizeCache(matchupdateJSON[indexPath.row]["appteamimage1"].stringValue))
-            matchupdateView.teamtwoImage.hnk_setImageFromURL(rest.getImageSizeCache(matchupdateJSON[indexPath.row]["appteamimage2"].stringValue))
+            matchupdateView.teamoneImage.hnk_setImageFromURL(rest.getImageSizeCache(matchupdateJSON[indexPath.row]["teamimage1"].stringValue))
+            matchupdateView.teamtwoImage.hnk_setImageFromURL(rest.getImageSizeCache(matchupdateJSON[indexPath.row]["teamimage2"].stringValue))
             matchupdateView.stadiumName.text = matchupdateJSON[indexPath.row]["stadium"].string
             matchupdateView.matchTime.text = matchupdateJSON[indexPath.row]["starttimedate"].string
             matchupdateView.matchTotalTime.text = matchupdateJSON[indexPath.row]["matchtime"].string
