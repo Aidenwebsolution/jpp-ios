@@ -140,7 +140,7 @@ open class RestApi {
     open func getMatchUpdate( _ completion: @escaping ( (JSON) -> Void) )  {
         var json = JSON(1);
         do {
-            let opt = try HTTP.GET(apiURL + "getSchedule")
+            let opt = try HTTP.GET(apiURL + "getScheduleForApp")
             print("apicalltest")
             opt.start { response in
                 if let _ = response.error {
@@ -149,8 +149,7 @@ open class RestApi {
                 else
                 {
                     json  = JSON(data: response.data)
-                    var matchObj : JSON = [];
-                    matchObj = matchObj + ["name":"asdf","demo":"demo"]
+                    
                     completion(json)
                 }
             }
